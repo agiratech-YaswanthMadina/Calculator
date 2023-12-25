@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.paragraph {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.calculator {
+    background-color: black;
+}
+.heading{
+    font-style: italic;
+    font-size: 35px;
+}
+.first-three-containers {
+    background-color: #786342;
+    padding: 10px;
+    margin: 2px;
+    color: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+
+.last-column {
+    background-color: #FFAC1C;
+    padding: 10px;
+    margin: 2px;
+    color: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.first_three_column {
+    background-color: #2B1700;
+    padding: 10px;
+    margin: 2px;
+    color: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.rule {
+    border-width: 1px;
+    border-color: #5a7184;
+    border-style: solid;
+}
+
+.align {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.cont1_box {
+    padding: 10px;
+    margin: 2px;
+    background-color: #64E2C5;
+    color: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.top-container {
+    background-color: black;
+    color: white;
+    text-align: right;
+    height: 120px;
+    width: 295px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.first-three-containers:hover{
+    background: gray;
+}
+
+.last-column:hover{
+    background: gray;
+}
+.first_three_column:hover{
+    background: gray;
+}
